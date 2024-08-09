@@ -1,0 +1,18 @@
+whitelist:
+  - PIG
+  - SHEEP
+  - COW
+  - CHICKEN
+  - WOLF
+  - SQUID
+  - VILLAGER
+  - ZOMBIE
+  - SKELETON
+  - SPIDER
+  - CREEPER
+  - SLIME
+  - ZOMBIFIED_PIGLIN
+  - GHAST
+  - ITEM
+  - DROPPED_ITEM
+  - PLAYER

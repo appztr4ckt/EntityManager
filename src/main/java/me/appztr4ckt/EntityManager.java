@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public final class MobWhitelist extends JavaPlugin {
+public final class EntityManager extends JavaPlugin {
 
     private static final List<EntityType> nonMobEntities = Arrays.asList(
             EntityType.ITEM,

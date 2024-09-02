@@ -1,18 +1,16 @@
-whitelist:
-  - PIG
-  - SHEEP
-  - COW
-  - CHICKEN
-  - WOLF
-  - SQUID
-  - VILLAGER
-  - ZOMBIE
-  - SKELETON
-  - SPIDER
-  - CREEPER
-  - SLIME
-  - ZOMBIFIED_PIGLIN
-  - GHAST
-  - ITEM
-  - DROPPED_ITEM
-  - PLAYER
+# If 'true', the list will be used as a whitelist; 'false' for blacklist
+turn-blacklist-to-whitelist: false 
+# Remove interval in ticks (20 ticks = 1 second)
+check-interval: 20  
+# Settings for non-mob entities
+
+# Remove dropped items (ITEM)
+remove-dropped-items: false             
+# Remove arrows (ARROW)
+remove-arrows: false             
+# Remove fireballs (FIREBALL, SMALL_FIREBALL)
+remove-fireballs: false          
+# Remove experience orbs (EXPERIENCE_ORB)
+remove-experience-orbs: false    
+# Remove tridents (TRIDENT)
+remove-tridents: false           
